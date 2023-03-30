@@ -1,3 +1,5 @@
+CREATE DATABASE db_faculdade
+
 CREATE TABLE aluno(
         aluno_id SERIAL PRIMARY KEY,
         aluno_nome VARCHAR(50) NOT NULL,
