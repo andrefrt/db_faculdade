@@ -31,7 +31,7 @@ INSERT INTO aluno(aluno_nome, aluno_cpf, genero, idade) VALUES ('Letícia Rodrig
 INSERT INTO aluno(aluno_nome, aluno_cpf, genero, idade) VALUES ('Larissa Rodrigues Lima',64917140778,'F','17');
 INSERT INTO aluno(aluno_nome, aluno_cpf, genero, idade) VALUES ('Raissa Carvalho Alves',77908350167,'F','24');
 
--- INSERTS PROFESSORES
+-- INSERTS PROFESSORE
 
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Tabbie Wythe', '05659901249', 'M', '32', 5616.17);
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Kizzie BURWIN', '02053536086', 'M', '84', 5909.35);
@@ -53,3 +53,11 @@ INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VA
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Julienne Proppers', '28965702534', 'F', '96', 3127.58);
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Tobiah Gyngyll', '72096757507', 'F', '65', 6810.51);
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Brand Audiss', '40250529045', 'M', '50', 3897.76);
+
+--INSERTS CURSO
+
+INSERT INTO curso(curso_codigo, curso_nome) VALUES('101','Ciência da Computação');
+INSERT INTO curso(curso_codigo, curso_nome) VALUES('102','Análise e Desenvolvimento de Sistemas');
+INSERT INTO curso(curso_codigo, curso_nome) VALUES('103','Engenharia de Software');
+INSERT INTO curso(curso_codigo, curso_nome) VALUES('104','Tecnologia da Informação');
+
