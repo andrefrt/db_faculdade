@@ -14,7 +14,7 @@ CREATE TABLE professor(
         professor_cpf CHAR(11) UNIQUE NOT NULL,
         genero CHAR(1) NOT NULL,
         idade SMALLINT NOT NULL,
-        salario NUMERIC(5,2) NOT NULL
+        salario NUMERIC(8,2) NOT NULL
 )
 
 CREATE TABLE curso(
