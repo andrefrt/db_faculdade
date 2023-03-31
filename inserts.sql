@@ -116,3 +116,36 @@ INSERT INTO status(status_curso, motivo) VALUES ('true','Proin aliquet neque tel
 INSERT INTO status(status_curso, motivo) VALUES ('true','Ut venenatis eu sapien at rutrum.');
 INSERT INTO status(status_curso, motivo) VALUES ('false','Suspendisse facilisis nec sem sed congue.');
 INSERT INTO status(status_curso, motivo) VALUES ('true','In leo nulla, tempor eget convallis at, accumsan at erat.');
+
+--INSERT TURMA
+
+INSERT INTO turma(turma_codigo) VALUES ('1001');
+INSERT INTO turma(turma_codigo) VALUES ('1002');
+INSERT INTO turma(turma_codigo) VALUES ('1003');
+INSERT INTO turma(turma_codigo) VALUES ('1004');
+INSERT INTO turma(turma_codigo) VALUES ('1005');
+INSERT INTO turma(turma_codigo) VALUES ('1006');
+INSERT INTO turma(turma_codigo) VALUES ('1007');
+INSERT INTO turma(turma_codigo) VALUES ('1008');
+INSERT INTO turma(turma_codigo) VALUES ('1009');
+INSERT INTO turma(turma_codigo) VALUES ('2001');
+INSERT INTO turma(turma_codigo) VALUES ('2002');
+INSERT INTO turma(turma_codigo) VALUES ('2003');
+INSERT INTO turma(turma_codigo) VALUES ('2004');
+INSERT INTO turma(turma_codigo) VALUES ('2005');
+INSERT INTO turma(turma_codigo) VALUES ('2006');
+INSERT INTO turma(turma_codigo) VALUES ('2007');
+INSERT INTO turma(turma_codigo) VALUES ('2008');
+INSERT INTO turma(turma_codigo) VALUES ('2009');
+INSERT INTO turma(turma_codigo) VALUES ('3001');
+INSERT INTO turma(turma_codigo) VALUES ('3002');
+INSERT INTO turma(turma_codigo) VALUES ('3003');
+INSERT INTO turma(turma_codigo) VALUES ('3004');
+INSERT INTO turma(turma_codigo) VALUES ('3005');
+INSERT INTO turma(turma_codigo) VALUES ('3006');
+INSERT INTO turma(turma_codigo) VALUES ('3007');
+INSERT INTO turma(turma_codigo) VALUES ('3008');
+INSERT INTO turma(turma_codigo) VALUES ('3009');
+INSERT INTO turma(turma_codigo) VALUES ('4001');
+INSERT INTO turma(turma_codigo) VALUES ('4002');
+INSERT INTO turma(turma_codigo) VALUES ('4003');
