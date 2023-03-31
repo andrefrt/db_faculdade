@@ -86,3 +86,26 @@ CREATE TABLE notas(
         materia_id INTEGER UNIQUE REFERENCES curso_materia(materia_id),
         nota_final NUMERIC(2,1)
 )
+
+CREATE TABLE turma(
+        turma_id SERIAL PRIMARY KEY,
+        turma_codigo INT
+)
+
+CREATE TABLE turma_aluno(
+        turma_aluno_id SERIAL PRIMARY KEY,
+        aluno_id INTEGER UNIQUE REFERENCES aluno_curso(aluno_id),
+        turma_id INTEGER UNIQUE REFERENCES turma(turma_id)
+)
+
+CREATE TABLE turma_professor(
+        turma_professor_id SERIAL PRIMARY KEY,
+        professor_id INTEGER UNIQUE REFERENCES professor(professor_id),
+        turma_id INTEGER UNIQUE REFERENCES turma(turma_id)
+)
+
+CREATE TABLE turma_materia(
+        turma_materia_id SERIAL PRIMARY KEY,
+        materia_id INTEGER UNIQUE REFERENCES curso_materia(materia_id),
+        turma_id INTEGER UNIQUE REFERENCES turma(turma_id)
+)
