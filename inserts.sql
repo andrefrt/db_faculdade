@@ -31,7 +31,7 @@ INSERT INTO aluno(aluno_nome, aluno_cpf, genero, idade) VALUES ('Letícia Rodrig
 INSERT INTO aluno(aluno_nome, aluno_cpf, genero, idade) VALUES ('Larissa Rodrigues Lima',64917140778,'F','17');
 INSERT INTO aluno(aluno_nome, aluno_cpf, genero, idade) VALUES ('Raissa Carvalho Alves',77908350167,'F','24');
 
--- INSERTS PROFESSORE
+-- INSERTS PROFESSOR
 
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Tabbie Wythe', '05659901249', 'M', '32', 5616.17);
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Kizzie BURWIN', '02053536086', 'M', '84', 5909.35);
@@ -61,3 +61,20 @@ INSERT INTO curso(curso_codigo, curso_nome) VALUES('102','Análise e Desenvolvim
 INSERT INTO curso(curso_codigo, curso_nome) VALUES('103','Engenharia de Software');
 INSERT INTO curso(curso_codigo, curso_nome) VALUES('104','Tecnologia da Informação');
 
+--INSERTS MATERIA
+
+INSERT INTO  materia(materia_nome) VALUES ('Algoritmos e Programação');
+INSERT INTO  materia(materia_nome) VALUES ('Análise e Projeto de Algoritmos');
+INSERT INTO  materia(materia_nome) VALUES ('Análise e Projeto de Software');
+INSERT INTO  materia(materia_nome) VALUES ('Circuitos Digitais');
+INSERT INTO  materia(materia_nome) VALUES ('Estrutura de Dados em C');
+INSERT INTO  materia(materia_nome) VALUES ('Programação Orientada a Objetos em Java');
+INSERT INTO  materia(materia_nome) VALUES ('Inteligência Artificial');
+INSERT INTO  materia(materia_nome) VALUES ('Matemática Discreta');
+INSERT INTO  materia(materia_nome) VALUES ('Lógica e Álgebra Booleana');
+INSERT INTO  materia(materia_nome) VALUES ('Cálculo 1');
+INSERT INTO  materia(materia_nome) VALUES ('Cálculo 2');
+INSERT INTO  materia(materia_nome) VALUES ('Data Science');
+INSERT INTO  materia(materia_nome) VALUES ('Banco de Dados');
+INSERT INTO  materia(materia_nome) VALUES ('Álgebra Linear');
+INSERT INTO  materia(materia_nome) VALUES ('Desenvolvimento Web e Mobile');
