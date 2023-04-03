@@ -60,18 +60,6 @@ CREATE TABLE status_aluno_curso(
         status_id INTEGER UNIQUE REFERENCES status(status_id)
 )
 
-CREATE TABLE frequencia(
-        frequencia_id SERIAL PRIMARY KEY,
-        frequencia_total INT,
-        frequencia_faltas INT
-)
-
-CREATE TABLE frequencia_aluno(
-        frequencia_aluno SERIAL PRIMARY KEY,
-        frequencias_id INTEGER UNIQUE REFERENCES frequencia(frequencia_id),
-        aluno_id INTEGER UNIQUE REFERENCES aluno(aluno_id)
-)
-
 CREATE TABLE evento(
         evento_id SERIAL PRIMARY KEY,
         evento_nome VARCHAR(100),
