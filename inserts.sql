@@ -149,3 +149,13 @@ INSERT INTO turma(turma_codigo) VALUES ('3009');
 INSERT INTO turma(turma_codigo) VALUES ('4001');
 INSERT INTO turma(turma_codigo) VALUES ('4002');
 INSERT INTO turma(turma_codigo) VALUES ('4003');
+
+--INSERTS EVENTO
+
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Impacto da IA e novas tecnologias na educação','Palestra','2023-04-16');
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('A evolução da computação','Palestra','2023-06-29');
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Computação em nuvem','Workshop','2023-07-07');
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Internet das coisas(IoT)','Palestra','2023-09-21');
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Desenvolvimento mobile Kotlin','Workshop','2023-10-01');
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Big Data','Palestra','2023-11-27');
+INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Desenvolvimento de Software em Java','Workshop','2023-11-29');
