@@ -43,16 +43,6 @@ INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VA
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Rona Sambell', '88913998084', 'M', '86', 3613.10);
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Robbert Nosworthy', '53884274893', 'F', '29', 4548.98);
 INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Dyann Trewin', '85946995529', 'F', '08', 4384.60);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Delly Zamorrano', '04951505517', 'M', '15', 1704.74);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Devinne Burbridge', '52699889820', 'F', '90', 1653.55);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Dede Gasparro', '80573927735', 'M', '43', 5010.15);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Melamie Franzolini', '39981623587', 'M', '69', 6491.10);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Ruprecht Kilday', '66931685553', 'M', '93', 2289.69);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Oates Sorbie', '46222980946', 'F', '56', 5435.63);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Gunner Studdert', '22617885740', 'M', '44', 2234.42);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Julienne Proppers', '28965702534', 'F', '96', 3127.58);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Tobiah Gyngyll', '72096757507', 'F', '65', 6810.51);
-INSERT INTO professor (professor_nome, professor_cpf, genero, idade, salario) VALUES ('Brand Audiss', '40250529045', 'M', '50', 3897.76);
 
 --INSERTS CURSO
 
@@ -223,3 +213,42 @@ INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 7);
 INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 9);
 INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 12);
 INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 13);
+
+--INSERTS professor_materia
+
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (1, 1);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (1, 2);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (1, 8);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (1, 9);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (2, 3);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (2, 5);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (2, 6);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (3, 4);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (3, 12);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (3, 13);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (3, 15);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (4, 3);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (4, 5);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (4, 6);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (4, 15);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (5, 1);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (5, 2);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (5, 3);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (6, 4);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (6, 7);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (6, 15);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (7, 10);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (7, 11);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (7, 12);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (7, 13);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (7, 14);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (8, 7);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (8, 8);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (8, 9);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (8, 14);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (9, 1);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (9, 2);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (9, 3);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (10, 5);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (10, 6);
+INSERT INTO professor_materia(professor_id, materia_id) VALUES (10, 15);
