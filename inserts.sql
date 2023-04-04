@@ -159,3 +159,44 @@ INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Internet das 
 INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Desenvolvimento mobile Kotlin','Workshop','2023-10-01');
 INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Big Data','Palestra','2023-11-27');
 INSERT INTO evento(evento_nome, evento_tipo, evento_data) VALUES ('Desenvolvimento de Software em Java','Workshop','2023-11-29');
+
+--INSERTS aluno_curso
+
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (1,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (2,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (3,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (3,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (4,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (5,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (6,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (7,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (8,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (8,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (9,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (10,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (11,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (12,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (13,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (13,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (14,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (15,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (16,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (17,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (17,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (18,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (19,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (20,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (20,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (21,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (22,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (23,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (24,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (25,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (25,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (26,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (27,4);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (27,3);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (28,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (29,1);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (30,2);
+INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (30,4);
