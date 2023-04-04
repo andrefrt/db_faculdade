@@ -38,26 +38,14 @@ CREATE TABLE curso_materia (
 CREATE TABLE aluno_curso(
         aluno_curso_id SERIAL PRIMARY KEY,
         aluno_id INTEGER REFERENCES aluno(aluno_id),
-        curso_id INTEGER REFERENCES curso(curso_id)
+        curso_id INTEGER REFERENCES curso(curso_id),
+        status BOOLEAN NOT NULL
 )
 
 CREATE TABLE professor_materia(
         professor_materia_id SERIAL PRIMARY KEY,
         professor_id INTEGER REFERENCES professor(professor_id),
         materia_id INTEGER REFERENCES materia(materia_id)
-)
-
-CREATE TABLE status(
-        status_id SERIAL PRIMARY KEY,
-        status_curso BOOLEAN NOT NULL,
-        motivo VARCHAR(500)  
-)
-
-CREATE TABLE status_aluno_curso(
-        status_aluno_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER REFERENCES aluno(aluno_id),
-        curso_id INTEGER REFERENCES curso(curso_id),
-        status_id INTEGER REFERENCES status(status_id)
 )
 
 CREATE TABLE evento(
