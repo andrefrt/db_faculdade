@@ -200,3 +200,26 @@ INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (28,2);
 INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (29,1);
 INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (30,2);
 INSERT INTO aluno_curso(aluno_id, curso_id) VALUES (30,4);
+
+--INSERTS curso_materia
+
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (1, 1);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (1, 2);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (1, 3);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (1, 5);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (1, 6);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (2, 5);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (2, 6);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (2, 7);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (2, 13);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (2, 15);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (3, 4);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (3, 8);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (3, 10);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (3, 11);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (3, 14);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 1);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 7);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 9);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 12);
+INSERT INTO curso_materia(curso_id, materia_id) VALUES (4, 13);
