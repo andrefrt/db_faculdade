@@ -55,33 +55,11 @@ CREATE TABLE evento(
         evento_data DATE     
 )
 
-CREATE TABLE notas(
-        notas_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER REFERENCES aluno_curso(aluno_id),
-        curso_id INTEGER REFERENCES aluno_curso(curso_id),
-        materia_id INTEGER REFERENCES curso_materia(materia_id),
-        nota_final NUMERIC(2,1)
-)
-
-CREATE TABLE turma(
+CREATE TABLE turma (
         turma_id SERIAL PRIMARY KEY,
-        turma_codigo INT
-)
-
-CREATE TABLE turma_aluno(
-        turma_aluno_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER REFERENCES aluno_curso(aluno_id),
-        turma_id INTEGER REFERENCES turma(turma_id)
-)
-
-CREATE TABLE turma_professor(
-        turma_professor_id SERIAL PRIMARY KEY,
-        professor_id INTEGER REFERENCES professor(professor_id),
-        turma_id INTEGER REFERENCES turma(turma_id)
-)
-
-CREATE TABLE turma_materia(
-        turma_materia_id SERIAL PRIMARY KEY,
-        materia_id INTEGER REFERENCES curso_materia(materia_id),
-        turma_id INTEGER REFERENCES turma(turma_id)
+        turma_codigo INT UNIQUE,
+        nota_final NUMERIC(2,1),
+        aluno_curso_id INT REFERENCES aluno_curso(aluno_curso_id),
+        curso_materia_id INT REFERENCES curso_materia(curso_materia_id),
+        professor_materia_id INT REFERENCES professor_materia(professor_materia_id)
 )
