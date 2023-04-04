@@ -37,8 +37,8 @@ CREATE TABLE curso_materia (
 
 CREATE TABLE aluno_curso(
         aluno_curso_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER UNIQUE REFERENCES aluno(aluno_id),
-        curso_id INTEGER UNIQUE REFERENCES curso(curso_id)
+        aluno_id INTEGER REFERENCES aluno(aluno_id),
+        curso_id INTEGER REFERENCES curso(curso_id)
 )
 
 CREATE TABLE professor_materia(
