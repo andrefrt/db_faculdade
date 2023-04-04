@@ -31,8 +31,8 @@ CREATE TABLE materia(
 
 CREATE TABLE curso_materia (
     curso_materia_id SERIAL PRIMARY KEY,
-    curso_id INTEGER UNIQUE REFERENCES curso(curso_id),
-    materia_id INTEGER UNIQUE REFERENCES materia(materia_id)
+    curso_id INTEGER REFERENCES curso(curso_id),
+    materia_id INTEGER REFERENCES materia(materia_id)
 )
 
 CREATE TABLE aluno_curso(
@@ -43,8 +43,8 @@ CREATE TABLE aluno_curso(
 
 CREATE TABLE professor_materia(
         professor_materia_id SERIAL PRIMARY KEY,
-        professor_id INTEGER UNIQUE REFERENCES professor(professor_id),
-        materia_id INTEGER UNIQUE REFERENCES materia(materia_id)
+        professor_id INTEGER REFERENCES professor(professor_id),
+        materia_id INTEGER REFERENCES materia(materia_id)
 )
 
 CREATE TABLE status(
@@ -55,9 +55,9 @@ CREATE TABLE status(
 
 CREATE TABLE status_aluno_curso(
         status_aluno_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER UNIQUE REFERENCES aluno(aluno_id),
-        curso_id INTEGER UNIQUE REFERENCES curso(curso_id),
-        status_id INTEGER UNIQUE REFERENCES status(status_id)
+        aluno_id INTEGER REFERENCES aluno(aluno_id),
+        curso_id INTEGER REFERENCES curso(curso_id),
+        status_id INTEGER REFERENCES status(status_id)
 )
 
 CREATE TABLE evento(
@@ -69,9 +69,9 @@ CREATE TABLE evento(
 
 CREATE TABLE notas(
         notas_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER UNIQUE REFERENCES aluno_curso(aluno_id),
-        curso_id INTEGER UNIQUE REFERENCES aluno_curso(curso_id),
-        materia_id INTEGER UNIQUE REFERENCES curso_materia(materia_id),
+        aluno_id INTEGER REFERENCES aluno_curso(aluno_id),
+        curso_id INTEGER REFERENCES aluno_curso(curso_id),
+        materia_id INTEGER REFERENCES curso_materia(materia_id),
         nota_final NUMERIC(2,1)
 )
 
@@ -82,18 +82,18 @@ CREATE TABLE turma(
 
 CREATE TABLE turma_aluno(
         turma_aluno_id SERIAL PRIMARY KEY,
-        aluno_id INTEGER UNIQUE REFERENCES aluno_curso(aluno_id),
-        turma_id INTEGER UNIQUE REFERENCES turma(turma_id)
+        aluno_id INTEGER REFERENCES aluno_curso(aluno_id),
+        turma_id INTEGER REFERENCES turma(turma_id)
 )
 
 CREATE TABLE turma_professor(
         turma_professor_id SERIAL PRIMARY KEY,
-        professor_id INTEGER UNIQUE REFERENCES professor(professor_id),
-        turma_id INTEGER UNIQUE REFERENCES turma(turma_id)
+        professor_id INTEGER REFERENCES professor(professor_id),
+        turma_id INTEGER REFERENCES turma(turma_id)
 )
 
 CREATE TABLE turma_materia(
         turma_materia_id SERIAL PRIMARY KEY,
-        materia_id INTEGER UNIQUE REFERENCES curso_materia(materia_id),
-        turma_id INTEGER UNIQUE REFERENCES turma(turma_id)
+        materia_id INTEGER REFERENCES curso_materia(materia_id),
+        turma_id INTEGER REFERENCES turma(turma_id)
 )
