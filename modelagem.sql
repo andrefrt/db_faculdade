@@ -56,10 +56,8 @@ CREATE TABLE evento(
 )
 
 CREATE TABLE turma (
-        turma_id SERIAL PRIMARY KEY,
-        turma_codigo INT UNIQUE,
+        turma_codigo INT PRIMARY KEY,
         nota_final NUMERIC(2,1),
         aluno_curso_id INT REFERENCES aluno_curso(aluno_curso_id),
-        curso_materia_id INT REFERENCES curso_materia(curso_materia_id),
         professor_materia_id INT REFERENCES professor_materia(professor_materia_id)
 )
