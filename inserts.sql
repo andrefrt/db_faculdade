@@ -252,3 +252,11 @@ INSERT INTO professor_materia(professor_id, materia_id) VALUES (9, 3);
 INSERT INTO professor_materia(professor_id, materia_id) VALUES (10, 5);
 INSERT INTO professor_materia(professor_id, materia_id) VALUES (10, 6);
 INSERT INTO professor_materia(professor_id, materia_id) VALUES (10, 15);
+
+--INSERTS turma
+
+INSERT INTO turma (turma_codigo, nota_final, aluno_curso_id, professor_materia_id) VALUES (1001, 9.2, 1, 31);
+INSERT INTO turma (turma_codigo, nota_final, aluno_curso_id, professor_materia_id) VALUES (1002, 5.8, 4, 10);
+INSERT INTO turma (turma_codigo, nota_final, aluno_curso_id, professor_materia_id) VALUES (1003, 7.2, 2, 8);
+INSERT INTO turma (turma_codigo, nota_final, aluno_curso_id, professor_materia_id) VALUES (1004, 2.4, 10, 15);
+INSERT INTO turma (turma_codigo, nota_final, aluno_curso_id, professor_materia_id) VALUES (1005, 4.6, 29, 35);
